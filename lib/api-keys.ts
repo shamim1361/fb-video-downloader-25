@@ -1,8 +1,12 @@
 export const API_KEYS = {
   first: "8797dbfd57msh8d39c3c14c09653p1ef8efjsn5bf4b16c248b",
-  second: "", // Add more keys here
+  second: "ff206ae98dmshe0253d00e481135p151794jsn10a23e31c63d", // Add more keys here
   third: "", // Add more keys here
   fourth: "", // Add more keys here
+  fifth: "", // Add more keys here
+  sixth: "", // Add more keys here
+  seventh: "", // Add more keys here
+  eighth: "", // Add more keys here
 } as const
 
 export type ApiKeyName = keyof typeof API_KEYS
